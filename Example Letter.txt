@@ -1,0 +1,17 @@
+^^FULL_ADDRESS^^
+
+Dear ^^NAME^^ ,
+
+I am writing a letter to inform you that because you fit the following criteria, we recommend the following steps to take:
+^^CRITERIA^^
+
+The steps we recommend you to take would be to take the following prescription:
+Take paracetemol
+Follow this link below to find out the benefits:
+
+We also believe that you would benefit from the following link/app. 
+
+
+Thank you
+
+Medical Department

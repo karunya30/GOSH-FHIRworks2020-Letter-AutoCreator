@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+</head>
+<body bgcolor="LightGray">
+    <h1>Patient Letter Creator</h1>
+    <h3>Please fill in the details below.</h3>
+    <p>To ensure that the texts will be replaced, surround the words with ^^.</p>
+    <p>The words that this program will allow you to replace are:</p> <br>
+    
+    ^^NAME^^ <br>
+    ^^FULL_ADDRESS^^ <br>
+    ^^CRITERIA^^ <br>
+    <form action = "results">
+        <textarea rows="25" cols="100" name="letter" >
+    Enter text here...</textarea>
+        <br>
+        <h3>Please choose the categories to filter your patients by</h3> <br>
+        <p>Please click the link below to see the possible categories that you can filter by</p>
+        
+        <a href="{% static 'webapp/files/Conditions.docx' %}" download>Conditions.docx</a><br>
+        <br>
+        1: <input type="text" name="category1">
+        <select id="boolean" name="bool1">
+        <option value="none">none</option>
+        <option value="&lt;">&lt;</option>
+        <option value="&gt;">&gt;</option>
+        <option value="=&lt;">=&lt;</option>
+        <option value="=&gt;">=&gt;</option>
+        <option value="==">==</option>
+        <option value="!=">!=</option>
+        </select>
+        Value: <input type="text" name="val1"><br>
+
+        2: <input type="text" name="category2">
+        <select id="boolean" name="bool2">
+            <option value="none">none</option>
+            <option value="&lt;">&lt;</option>
+            <option value="&gt;">&gt;</option>
+            <option value="=&lt;">=&lt;</option>
+            <option value="=&gt;">=&gt;</option>
+            <option value="==">==</option>
+            <option value="!=">!=</option>
+        </select>
+        Value: <input type="text" name="val2"><br>
+
+        3: <input type="text" name="category3">
+        <select id="boolean" name="bool3">
+            <option value="none">none</option>
+            <option value="&lt;">&lt;</option>
+            <option value="&gt;">&gt;</option>
+            <option value="=&lt;">=&lt;</option>
+            <option value="=&gt;">=&gt;</option>
+            <option value="==">==</option>
+            <option value="!=">!=</option>
+        </select>
+        Value: <input type="text" name="val3"><br>
+
+        4: <input type="text" name="category4">
+        <select id="boolean" name="bool4">
+            <option value="none">none</option>
+            <option value="&lt;">&lt;</option>
+            <option value="&gt;">&gt;</option>
+            <option value="=&lt;">=&lt;</option>
+            <option value="=&gt;">=&gt;</option>
+            <option value="==">==</option>
+            <option value="!=">!=</option>
+        </select>
+        Value: <input type="text" name="val4"><br>
+
+        5: <input type="text" name="category5">
+        <select id="boolean" name="bool5">
+            <option value="none">none</option>
+            <option value="&lt;">&lt;</option>
+            <option value="&gt;">&gt;</option>
+            <option value="=&lt;">=&lt;</option>
+            <option value="=&gt;">=&gt;</option>
+            <option value="==">==</option>
+            <option value="!=">!=</option>
+        </select>
+        Value: <input type="text" name="val5"><br>
+       
+        
+        Create Letters<input type="submit">
+    </form>
+
+    <p></p>
+</body>
+</html>
+
