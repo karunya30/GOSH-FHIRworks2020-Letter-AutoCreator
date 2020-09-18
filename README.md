@@ -6,6 +6,12 @@ The users add criteria to filter patients and input a sample letter with variabl
 
 Youtube Link: https://youtu.be/inKUyaiKJlU
 
+This video shows a demonstration of the API in a real world situation. 
+##### The API: 
+Categories to filter out patients, and a letter with variables are input to the API, the content of the different patients letters in JSON are output to the API.
+##### The Web Application: 
+The web application in the demo calls the API and gets the content of the letters as a response. It then stores the content in a word document and then the user can click on the links to download these letters. 
+
 ## How to set up Project
 
 Make sure to run python 3.7
