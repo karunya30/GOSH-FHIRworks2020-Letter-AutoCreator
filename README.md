@@ -20,6 +20,9 @@ Next make sure to run the command 'python manage.py runserver' (preferrably 'py 
 Then open another command line and direct your way to the mysite directory(../GOSH-FHIRworks2020-Karunya-Selvaratnam/mysite/)
 Run the command 'python manage.py runserver 7000' (preferrably 'py -3.7 manage.py runserver 7000')
 
+## Secret Key
+In the settings.py file, line 23, in both myapi and mysite, uncomment the line and store django secret key in that variable. 
+
 #### IMPORTANT:
 Make sure that myapi is on port 8000 and mysite is on a different port 
 
